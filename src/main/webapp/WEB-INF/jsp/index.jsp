@@ -6,8 +6,6 @@
 </head>
 
 <body>
-Time: ${time}
-<br>
-Message: ${message}
+Hello World!
 </body>
 </html>

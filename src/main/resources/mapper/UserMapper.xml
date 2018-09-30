@@ -8,7 +8,7 @@
         <result column="age" property="age" jdbcType="INTEGER" />
     </resultMap>
     <sql id="Base_Column_List" >
-        id， user_name, password, age
+        id, user_name, password, age
     </sql>
     <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
         select
@@ -16,7 +16,7 @@
         from user_t
         where id = #{id,jdbcType=INTEGER}
     </select>
-    <select id="getUserList" resultMap="BaseResultMap">
+    <select id="selectAll" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List" />
         from user_t
