@@ -1,22 +1,25 @@
 package com.asiainfo.demo;
 
 import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
 @MapperScan("com.asiainfo.demo.dao")
-public class DemoApplication extends SpringBootServletInitializer {
+//打war包需要继承SpringBootServletInitializer
+public class PmsApplication extends SpringBootServletInitializer {
 
     @Override
+    //重写configure()方法
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(DemoApplication.class);
+        return application.sources(PmsApplication.class);
     }
 
+    /*外部tomcat不需要main方法来启动w
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(PmsApplication.class, args);
     }
+    */
 
 }
