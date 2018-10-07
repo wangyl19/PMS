@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>pms</name>
+    <name>PMS</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -28,6 +28,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
@@ -54,7 +60,7 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
-            <!-- <scope>provided</scope> -->
+             <scope>provided</scope>
         </dependency>
         <!-- jstl标签库 -->
         <dependency>
@@ -72,7 +78,5 @@
             </plugin>
         </plugins>
     </build>
-	
-	
 
 </project>
