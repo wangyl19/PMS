@@ -1,4 +1,4 @@
-package com.asiainfo.demo.config;
+package com.asiainfo.pms.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.boot.context.properties.ConfigurationProperties;

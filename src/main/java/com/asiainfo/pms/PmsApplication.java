@@ -1,4 +1,4 @@
-package com.asiainfo.demo;
+package com.asiainfo.pms;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-@MapperScan("com.asiainfo.demo.dao")
+@MapperScan("com.asiainfo.pms.**.dao")
 //打war包需要继承SpringBootServletInitializer
 public class PmsApplication extends SpringBootServletInitializer {
 
