@@ -6,16 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07552daf-47e8-4533-b322-af573e44b39f" name="Default" comment="init pms">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asiainfo/demo/config/DBConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_0.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/asiainfo/demo/DemoApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/asiainfo/demo/PmsApplication.java" />
+    <list default="true" id="07552daf-47e8-4533-b322-af573e44b39f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/pms_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pms_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms.iml" afterPath="$PROJECT_DIR$/pms.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="pms.iml" />
@@ -537,7 +531,7 @@
       <workItem from="1538817349978" duration="300000" />
       <workItem from="1538817769369" duration="3343000" />
       <workItem from="1538875306378" duration="7891000" />
-      <workItem from="1538884646781" duration="541000" />
+      <workItem from="1538884646781" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="init pms">
       <created>1538875760129</created>
@@ -546,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538875760129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update pms">
+      <created>1538885222880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538885222880</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12075000" />
+    <option name="totallyTimeSpent" value="12116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
@@ -634,7 +635,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="init pms" />
-    <option name="LAST_COMMIT_MESSAGE" value="init pms" />
+    <MESSAGE value="update pms" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,6 +873,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
